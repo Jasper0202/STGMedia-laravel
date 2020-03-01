@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+.image,
+.Lightbox_Image{
+  width: 800px;
+  height: 700px;
+}
+
+.Image_Lightbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0,1); 
+  transition: transform 150ms ease-in-out;
+  transform-origin: bottom; 
+  padding: 2em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  background: RGBA(0,0,0,0.11);
+}
+
+.Image_Lightbox:target {
+  transform: scale(1,1);
+  transform-origin: center; 
+
+}
+
+.Image_Lightbox_Desc {
+    padding: 1.5em;
+    text-align: right;
+  }
+  
+  .Image_Lightbox_Title {
+    font-family: 'Indie Flower';
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    margin-top: 0;
+  }
+
+.Image_Lightbox_Content {
+  width: 60%;
+  padding: 1em;
+  background-color: lightgrey;
+  position: relative;
+  border-radius: 42px 42px 42px 42px;
+}
+
+.Lightbox_Image { margin-bottom: 1em; }
+
+.close {
+  position: absolute;
+  right: 1em;
+  top: 1;
+  display: flex;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.close::after {
+  content: 'x';
+  color: black;
+  font-size: 20px;
+}

@@ -1,0 +1,127 @@
+/* Body */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f1f1f1;
+}
+
+
+/* Header/Main menu */
+header {
+  /* background-color: rgb(151, 143, 143); */
+  background: transparent;
+  height: 90px;
+  text-align: right;
+  line-height: 85px;
+  font-weight: bold;
+}
+
+header a:link {
+  font-size: 25px;
+  /* color: #f1f1f1; */
+  color: dimgray;
+  text-decoration: none;
+  padding: 34px;
+}
+
+header a:hover {
+  background-color: #ff7b00;
+  color: #000 !important;
+  transition: 0.5s;
+}
+
+header a:visited {
+  color: dimgray;
+}
+
+.header-links {
+  margin-right: 15.5%;
+}
+
+.header-logo
+{
+  float: left;
+  margin-left: 7%;
+}
+
+.header-logo img
+{
+  width: 50%;
+  height: 50%;
+}
+
+/* Main Content */
+.content {
+  display: table;
+  width: 100%;
+}
+
+nav {
+  float: left;
+  width: 15%;
+  padding: 20px;
+}
+
+/* Footer/Socket */
+.footer {
+  background-color: dimgray;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer span iframe{
+  height: 300px;
+}
+
+.socket {
+  background-color: #1f1f1f;
+  padding: 0;
+  color: #fff;
+  height: 30px;
+}
+
+.socket a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact {
+  /* margin-left: 16%; */
+  line-height: 20px;
+  font-size: 20px;
+}
+
+.footer-socket {
+  bottom: 0;
+  width: 100%;
+}
+
+.newapps {
+  float: left;
+  margin-left: 16%;
+  line-height: 25px;
+}
+
+.socket-links {
+  float: right;
+  margin-right: 18%;
+  line-height: 25px;
+}
+
+.white-space {
+  visibility: hidden;
+}
+/* Responsive layout */
+@media (max-width: 747px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}

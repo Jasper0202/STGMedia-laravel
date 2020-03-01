@@ -1,0 +1,44 @@
+/* De inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* De styling voor de knoppen */
+button {
+    font-size: 10px;
+    color: dimgray;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Hover over de knoppen*/
+button:hover {
+    background-color: #ff7b00;
+    color: #000 !important;
+    transition: 0.5s;
+}
+
+/* Styling voor de cancel knop */
+.cancelbtn {
+    width: auto;
+    padding: 5px 10px;
+    color: dimgray;
+}
+/* container padding */
+.container {
+    padding: 10px;
+}
+
+/* wachtwoord vergeten tekst */
+span.psw {
+    padding-top: 16px;
+}
+
+.white-space {
+    visibility: hidden;
+}
