@@ -16,25 +16,25 @@
         <div class="container">
             <div class='form'>
                 <label for="uname"><b>Voornaam</b></label>
-                <input type="text" placeholder="Vul hier uw voornaam in" name="first_name" required>
+                <input type="text" placeholder="Vul hier uw voornaam in" name="first_name">
 
                 <label for="uname"><b>Achternaam</b></label>
-                <input type="text" placeholder="Vul hier uw achternaam in" name="last_name" required>
+                <input type="text" placeholder="Vul hier uw achternaam in" name="last_name" >
 
                 <label for="uname"><b>Avatarnaam</b></label>
-                <input type="text" placeholder="Vul hier uw avatarnaam in" name="avatar_name" required>
+                <input type="text" placeholder="Vul hier uw avatarnaam in" name="avatar_name" >
 
                 <label for="uname"><b>Birthday</b></label> <br>
-                <input type="date" id="birthday" name="birth_date" required>
+                <input type="date" id="birthday" name="birth_date" >
                 <br>
                 <label for="uname"><b>E-mail adres</b></label>
-                <input type="text" placeholder="Vul hier uw e-mail adres in" name="email" required>
+                <input type="text" placeholder="Vul hier uw e-mail adres in" name="email" >
 
                 <label for="psw"><b>Wachtwoord</b></label>
-                <input type="password" placeholder="Vul hier uw wachtwoord in" name="password" required>
+                <input type="password" placeholder="Vul hier uw wachtwoord in minimaal 8 tekens" name="password" >
 
                 <label for="psw"><b>Wachtwoord herhalen</b></label>
-                <input type="password" placeholder="Vul hier uw wachtwoord in" name="password_confirmation" required>
+                <input type="password" placeholder="Vul hier uw wachtwoord in minimaal 8 tekens" name="password_confirmation" >
 
                 <button type="submit">Registreer je hier</button>
             </div>
